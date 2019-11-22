@@ -1,4 +1,8 @@
 {
+  "name": "bsc-stdlib-polyfill",
+  "version": "0.0.1",
+  "repository": "https://github.com/Schmavery/bsc-stdlib-polyfill.git",
+  "author": "<avery.schmavery@gmail.com>",
   "scripts": {
     "build": "bsb -make-world",
     "clean": "bsb -clean-world"
