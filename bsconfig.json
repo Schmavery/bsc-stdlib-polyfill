@@ -1,0 +1,10 @@
+{
+  "name": "bsc-stdlib-polyfill",
+  "bsc-flags": ["-bs-super-errors"],
+  "sources": "src",
+  "package-specs": {
+    "module": "es6"
+  },
+  "namespace": true,
+  "refmt": 3
+}
