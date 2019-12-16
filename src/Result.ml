@@ -12,7 +12,7 @@
 (*   special exception on linking described in the file LICENSE.          *)
 (*                                                                        *)
 (**************************************************************************)
-type ('a, 'e) result = Ok of 'a | Error of 'e
+open Global
 type ('a, 'e) t = ('a, 'e) result = Ok of 'a | Error of 'e
 
 let ok v = Ok v

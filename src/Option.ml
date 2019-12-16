@@ -12,6 +12,7 @@
 (*   special exception on linking described in the file LICENSE.          *)
 (*                                                                        *)
 (**************************************************************************)
+open Global
 type 'a t = 'a option = None | Some of 'a
 
 let none = None
