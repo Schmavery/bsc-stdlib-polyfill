@@ -20,6 +20,7 @@
 
 (** {1:results Results} *)
 
+type ('a, 'e) result = Ok of 'a | Error of 'e
 type ('a, 'e) t = ('a, 'e) result = Ok of 'a | Error of 'e (**)
 (** The type for result values. Either a value [Ok v] or an error [Error e]. *)
 
